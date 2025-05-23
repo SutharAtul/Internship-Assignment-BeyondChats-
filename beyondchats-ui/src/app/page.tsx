@@ -1,7 +1,15 @@
-export default function Home() {
+'use client';
+
+import Sidebar from "../components/Sidebar";
+import ChatWindow from "../components/ChatWindow";
+
+export default function HomePage() {
   return (
-    <div className="text-3xl font-bold text-purple-600 p-6">
-      Hello BeyondChats 🚀
+    <div className="flex h-screen w-screen">
+      <Sidebar />
+      <div className="flex flex-1">
+        <ChatWindow />
+      </div>
     </div>
   );
 }
