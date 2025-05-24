@@ -59,7 +59,7 @@ This project is a frontend implementation of an AI-enhanced messaging dashboard 
 
 ---
 
-## 🚀 Getting Started
+## 🔛 Getting Started
 
 ### 1. Install Dependencies
 
@@ -100,7 +100,7 @@ Then visit [http://localhost:3000](http://localhost:3000).
 - Fully compatible with future backend or real-time chat integrations (e.g.,
 
 
-## Deploy on Vercel
+## 🚀 Deploy on Vercel
 
 Link - https://internshipassignmentbeyondchats.vercel.app/
 click on link to see the live application.
