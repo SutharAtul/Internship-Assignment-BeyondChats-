@@ -100,3 +100,8 @@ Then visit [http://localhost:3000](http://localhost:3000).
 - Backend and AI suggestions are mocked.
 - Fully compatible with future backend or real-time chat integrations (e.g.,
 
+
+## Deploy on Vercel
+
+Link - https://internshipassignmentbeyondchats.vercel.app/
+click on above link to see the live application.
