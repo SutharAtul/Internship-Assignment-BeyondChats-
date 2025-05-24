@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import CopilotPanel from "../components/CopilotPanel";
 
+
 export default function HomePage() {
   return (
     <div className="flex h-full w-full">

@@ -1,20 +1,16 @@
 'use client';
 
-import { useChat } from '../context/ChatContext';
 import { Clock, Search } from 'lucide-react';
 
-export default function Sidebar() {
-  const { chats, selectedChatId, selectChat } = useChat();
-
+export default function NavBar() {
   return (
-    <div className="w-96 min-w-96 h-full bg-white border-r flex flex-col overflow-y-auto">
-      {/* Top Inbox Section */}
+    <div className="w-96 min-w-96 h-full border-r border-gray-100 bg-white flex flex-col">
       <div className="p-4 pb-2">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-lg font-semibold text-gray-900">Your Inbox</h1>
           <div className="flex items-center gap-2 text-sm text-gray-500">
             <Clock className="w-4 h-4" />
-            <span>{chats.length} Open</span>
+            <span>5 Open</span>
           </div>
         </div>
 
@@ -31,24 +27,6 @@ export default function Sidebar() {
           <span>Waiting longest</span>
           <span>Sorted by recent</span>
         </div>
-      </div>
-
-      {/* Chat List */}
-      <div className="flex-1 overflow-y-auto text-gray-800">
-        {chats.map((chat) => (
-          <div
-            key={chat.id}
-            onClick={() => selectChat(chat.id)}
-            className={`p-4 cursor-pointer ${
-              selectedChatId === chat.id ? 'bg-blue-100' : ''
-            }`}
-          >
-            <p className="font-semibold">{chat.participant}</p>
-            <p className="text-sm text-gray-500 line-clamp-1">
-              {chat.messages[chat.messages.length - 1]?.text}
-            </p>
-          </div>
-        ))}
       </div>
     </div>
   );
