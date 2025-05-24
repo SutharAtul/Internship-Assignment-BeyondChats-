@@ -21,7 +21,7 @@ export default function ChatWindow() {
       
       {/* Header */}
       <header className="pb-4 border-b mb-4">
-        <h2 className="text-lg font-semibold">Customer Queries</h2>
+        <h2 className="text-lg font-semibold text-gray-700">Customer Queries</h2>
         <p className="text-sm text-gray-500">Chat with John Doe</p>
       </header>
 
@@ -30,7 +30,7 @@ export default function ChatWindow() {
         {dummyMessages.map((msg) => (
           <div
             key={msg.id}
-            className={`max-w-[75%] p-3 rounded-lg text-sm ${
+            className={`max-w-[75%] p-3 rounded-lg text-sm text-black ${
               msg.sender === 'user'
                 ? 'ml-auto bg-purple-100 text-right'
                 : 'mr-auto bg-gray-100'
@@ -47,7 +47,7 @@ export default function ChatWindow() {
         <input
           type="text"
           placeholder="Type a message..."
-          className="flex-1 p-2 text-sm border rounded"
+          className="flex-1 p-2 text-sm border rounded text-gray-500"
         />
         <button
           type="submit"

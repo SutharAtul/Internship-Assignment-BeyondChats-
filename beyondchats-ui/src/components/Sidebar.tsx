@@ -30,7 +30,7 @@ export default function Sidebar() {
           <button
             key={inbox.id}
             onClick={() => setActive(inbox.id)}
-            className={`text-left p-2 rounded ${
+            className={`text-left p-2 rounded text-gray-500 ${
               active === inbox.id
                 ? 'bg-purple-100 text-purple-700 font-medium'
                 : 'hover:bg-gray-100'
