@@ -89,7 +89,7 @@ Then visit [http://localhost:3000](http://localhost:3000).
 
 ## 📸 Screenshot
 
-![Screenshot](./public/screenshot.png)
+![Screenshot](./beyondchats-ui/public/image.png)
 
 > Rename your screenshot file to \`screenshot.png\` and move it into the \`public/\` folder to display here.
 
