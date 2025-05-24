@@ -39,7 +39,7 @@ export default function CopilotPanel() {
         <h2 className="text-lg font-semibold text-purple-700">AI Copilot</h2>
       </div>
 
-      <div className="flex-1 overflow-y-auto space-y-3 text-sm">
+      <div className="flex-1 overflow-y-auto space-y-3 text-sm text-gray-600">
         {aiMessages.map((msg, idx) => (
           <div
             key={idx}
@@ -61,7 +61,7 @@ export default function CopilotPanel() {
           value={input}
           onChange={e => setInput(e.target.value)}
           placeholder="Ask based on conversation..."
-          className="flex-1 border rounded px-3 py-2 text-sm"
+          className="flex-1 border rounded px-3 py-2 text-sm text-gray-600"
         />
         <button type="submit" className="p-2 bg-purple-600 text-white rounded">
           <Send size={16} />
