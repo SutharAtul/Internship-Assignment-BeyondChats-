@@ -91,7 +91,6 @@ Then visit [http://localhost:3000](http://localhost:3000).
 
 ![Screenshot](./beyondchats-ui/public/image.png)
 
-> Rename your screenshot file to \`screenshot.png\` and move it into the \`public/\` folder to display here.
 
 ---
 
@@ -104,4 +103,4 @@ Then visit [http://localhost:3000](http://localhost:3000).
 ## Deploy on Vercel
 
 Link - https://internshipassignmentbeyondchats.vercel.app/
-click on above link to see the live application.
+click on link to see the live application.
